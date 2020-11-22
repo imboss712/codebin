@@ -1,0 +1,5 @@
+.output-action {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 24px 0 16px;
+}

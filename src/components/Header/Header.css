@@ -1,0 +1,52 @@
+.header-menu {
+  background-color: #006666;
+  padding: 8px;
+}
+
+.header-menu,
+.header-left,
+.header-right {
+  display: flex;
+}
+
+.header-nav {
+  padding: 8px 8px 9px 8px;
+}
+
+.header-right {
+  margin-left: 110px;
+}
+
+.title {
+  color: #1890ff;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: auto auto auto 16px;
+}
+
+.modal-icon {
+  font-size: 25px;
+  color: #1890ff;
+  -webkit-transition: -webkit-transform 0.42s ease-in-out;
+  transition: transform 0.42s ease-in-out;
+}
+
+.modal-icon:hover {
+  color: orange;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.header-right-sm {
+  display: none;
+  margin: auto 18px auto auto;
+}
+
+@media only screen and (max-width: 1062px) {
+  .header-right-sm {
+    display: inline-block;
+  }
+  .header-right {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+.tip {
+  background-color: #fffbe6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.alert-box {
+  padding: 12px;
+}
+
+@media only screen and (max-width: 1062px) {
+  .tip {
+    display: none;
+  }
+}

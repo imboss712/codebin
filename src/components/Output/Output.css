@@ -1,0 +1,11 @@
+.code-output-response {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 649px;
+}
+
+.heading {
+  padding: 16px 16px 8px 16px;
+}
