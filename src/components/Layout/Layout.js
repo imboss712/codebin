@@ -143,7 +143,12 @@ class Layout extends Component {
         />
 
         <Row>
-          <Col md={{ span: 24 }} lg={{ span: 12 }}>
+          <Col
+            xs={{ span: 24 }}
+            sm={{ span: 24 }}
+            md={{ span: 24 }}
+            lg={{ span: 12 }}
+          >
             <Editor
               editorLang={editorLang}
               theme={theme}
@@ -156,6 +161,8 @@ class Layout extends Component {
           </Col>
 
           <Col
+            xs={{ span: 24 }}
+            sm={{ span: 24 }}
             md={{ span: 24 }}
             lg={{ span: 12 }}
             style={{ borderLeft: "1px solid #f0f0f0" }}
