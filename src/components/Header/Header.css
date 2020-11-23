@@ -22,19 +22,30 @@
   font-size: 25px;
   font-weight: bolder;
   margin: auto auto auto 16px;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: orange;
+}
+
+.title-wheel {
+  font-size: 18px;
+  display: inline-block;
+  margin: auto 1px;
 }
 
 .modal-icon {
   font-size: 25px;
   color: #1890ff;
-  -webkit-transition: -webkit-transform 0.42s ease-in-out;
-  transition: transform 0.42s ease-in-out;
+  -webkit-transition: -webkit-transform 0.62s ease-in-out;
+  transition: transform 0.62s ease-in-out;
 }
 
 .modal-icon:hover {
   color: orange;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .header-right-sm {

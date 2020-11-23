@@ -10,7 +10,11 @@ const Success = (props) => {
         title={<p style={{ color: "green" }}>Success!</p>}
       />
       <div
-        style={{ fontSize: "20px", textAlign: "center", margin: "auto 48px" }}
+        style={{
+          fontSize: "20px",
+          textAlign: "center",
+          margin: "auto 48px"
+        }}
       >
         {output && (
           <p>

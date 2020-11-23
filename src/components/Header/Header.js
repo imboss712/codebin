@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Select, Button, Modal } from "antd";
-import { NumberOutlined, SettingOutlined } from "@ant-design/icons";
+import {
+  NumberOutlined,
+  SettingOutlined,
+  SettingFilled
+} from "@ant-design/icons";
 import "./Header.css";
 
 import { langMenuOptions, themeMenuOptions } from "../../utils/MenuOptions";
@@ -91,7 +95,13 @@ const Header = (props) => {
     <>
       <div className="header-menu">
         <div className="header-left">
-          <div className="header-nav title">codebin</div>
+          <div className="header-nav title">
+            c
+            <span className="title-wheel">
+              <SettingFilled />
+            </span>
+            debin
+          </div>
         </div>
 
         <div className="header-right">{setting}</div>
